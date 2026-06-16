@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read what our guests say about their experience at Sunrise Hotel">
+    <title>Testimonials - Sunrise Hotel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Sunrise Hotel Logo" width="50">
+                <div class="logo-text">
+                    <h1>Sunrise Hotel</h1>
+                    <span>Luxury & Comfort</span>
+                </div>
+            </div>
+            <nav class="nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms & Suites</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="testimonials.html" class="active">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="btn-book">Book Now</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Guest Testimonials</h1>
+            <p>See what our guests have to say about their experience</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="guest-info">
+                            <h3>Sarah Johnson</h3>
+                            <span class="stay-date">Stayed: March 15, 2025</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-content">
+                        <p>"Our stay at Sunrise Hotel was absolutely perfect! The staff went above and beyond to make our anniversary special. The room was spacious with breathtaking views, and the spa services were exceptional."</p>
+                        
+                        <div class="testimonial-media">
+                            <div class="video-testimonial">
+                                <video controls poster="images/pool.jpg" width="100%">
+                                    <source src="video/video-2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="media-caption">Sarah's room tour</p>
+                            </div>
+                            
+                            <div class="audio-testimonial">
+                                <audio controls style="width: 100%">
+                                    <source src="video/audio-1.mp3" type="audio/mp3">
+                                    Your browser does not support the audio element.
+                                </audio>
+                                <p class="media-caption">Listen to Sarah's experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-feedback">
+                        <label class="feedback-question">
+                            <input type="checkbox" name="enjoyed-stay" checked disabled>
+                            <span>Did you enjoy your stay with us?</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="guest-info">
+                            <h3>Izza Shajahan</h3>
+                            <span class="stay-date">Stayed: February 28, 2025</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-content">
+                        <p>"As a business traveler, I appreciate efficiency and comfort. Sunrise Hotel delivered on both fronts. The executive lounge access and high-speed internet made my work stay productive and comfortable."</p>
+                        
+                        <div class="testimonial-media">
+                            <div class="video-testimonial">
+                                <video controls poster="images/gym.jpg" width="100%">
+                                    <source src="video/video-1.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="media-caption">Izza's business facilities review</p>
+                            </div>
+                            
+                            <div class="audio-testimonial">
+                                <audio controls style="width: 100%">
+                                    <source src="video/audio-2.mp3" type="audio/mp3">
+                                    Your browser does not support the audio element.
+                                </audio>
+                                <p class="media-caption">Izza's business travel tips</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-feedback">
+                        <label class="feedback-question">
+                            <input type="checkbox" name="enjoyed-stay" checked disabled>
+                            <span>Did you enjoy your stay with us?</span>
+                        </label>
+                    </div>
+                </div>
+
+              
+                    
+                  
+                    
+
+    <!-- Add Your Testimonial -->
+    <section class="add-testimonial">
+        <div class="container">
+            <div class="testimonial-form">
+                <h2>Share Your Experience</h2>
+                <p>We'd love to hear about your stay at Sunrise Hotel</p>
+                
+                <form id="testimonialForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Stay Date (e.g., March 2025)" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your testimonial..." rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="feedback-question">
+                            <input type="checkbox" name="enjoyed-stay" required>
+                            <span>Did you enjoy your stay with us?</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Testimonial</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Sunrise Hotel Logo" width="40">
+                        <h3>Sunrise Hotel</h3>
+                    </div>
+                    <p>Experience luxury and comfort in the heart of the city. Your perfect getaway awaits.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Sunshine Avenue, Beachfront City</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@sunrisehotel.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms & Suites</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Contact</h4>
+                    <form class="contact-form" id="footerContactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="3" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for special offers and updates</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sunrise Hotel. All rights reserved. | Designed by <i class="fas fa-heart"></i> Asfar Aqsha </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
